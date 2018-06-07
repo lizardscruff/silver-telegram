@@ -1,0 +1,21 @@
+h1 {
+	color: rgba(0, 200, 100, 0.9);
+	/*gotta have all 3 of these to make the border work*/
+	border-color: purple;
+	border-width: 5px;
+	border-style: dotted;
+
+	/*this does the same thing shorthand*/
+	border: 8px dashed rgb(255, 100, 80);
+}
+
+h4 {
+	background: rgb(255, 100, 80);
+}
+
+body {
+	background: pink;
+/*	background: url(https://images.homedepot-static.com/productImages/053d230c-6b14-4593-9b5e-4e28e5206c9b/svn/brown-high-gloss-home-decorators-collection-laminate-wood-flooring-hl84-64_1000.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}

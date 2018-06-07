@@ -1,0 +1,18 @@
+/*http://colours.neilorangepeel.com/category/purple/*/
+/*you can use named colors but they are not that accurate*/
+h1 {
+	color: mediumslateblue;
+}
+
+/*https://www.google.co.jp/search?q=color+picker&rlz=1C1RUCY_enJP692JP693&oq=color+picker&aqs=chrome..69i57j69i65j69i60j69i65j35i39j0.1560j0j7&sourceid=chrome&ie=UTF-8*/
+/*you can also use hexadecimal to be much more precise*/
+li {
+	color: #75a377;
+}
+
+/*alternatively you may use rgb*/
+/*rgba is useful where the 'a' stands for alpha and changes the transparency of the color*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool*/
+h4 {
+	color: rgba(194, 61, 234, 0.37);
+}

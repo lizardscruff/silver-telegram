@@ -1,0 +1,52 @@
+/*Elements*/
+li {
+
+}
+/*Class*/
+.hello {
+
+}
+/*Id*/
+# {
+
+}
+/*Star*/
+* {
+	
+}
+/*Descendant Selector*/
+
+/*everything selected inside one selector
+and chained with another selector to be more specific.
+can chain more than just two.*/
+li a {
+
+}
+
+li .class {
+
+}
+/*Adjacent Selector*/
+/*separates two selectors and matches the second element
+only if it immediately follows the first.
+they both must be children of the same parent element*/
+h4 + ul {
+
+}
+/*Attribute Selector*/
+/*matches elements based on the presence or value of a 
+given attribute.
+mdn google this for more examples*/
+a[href="http://www.google.com"] {
+	background: blue;
+}
+input[type="checkbox"] {
+	background: purple;
+}
+/*nth of type*/
+/*this example takes every 3rd li and changes the
+background color to orange.
+you can use even or odd instead of numbers too.*/
+li:nth-of-type(3) {
+	background: orange;
+}

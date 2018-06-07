@@ -1,0 +1,62 @@
+/*font-family*/
+
+p {
+	font-family: 'Indie Flower';
+}
+
+h1 {
+	font-family: 'Raleway';
+}
+
+/*font-size*/
+
+/*Since em is relative to the font-size of it's
+parent, it's useful to set the body font-size
+first and then set ems on child elements.*/
+body {
+	font-size: 16px;
+}
+
+/*This means the h1 size=5x16px*/
+h1 {
+	font-size: 5.0em;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+span {
+	font-size: 2.0em;
+}
+
+/*font-weight*/
+p {
+	font-weight: normal;
+}
+
+/*line-height*/
+
+p {
+	line-height: 1;
+}
+
+/*text-align*/
+
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
+/*text-decoration*/
+
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}

@@ -1,0 +1,33 @@
+p {
+
+/*Content - Width and Height*/
+
+width: 50%;
+/*50 percent is half of the parent*/
+/*the parent of p is body in this case*/
+height: 100px;
+
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding*/
+
+padding: 10px;
+padding-left: 40px;
+
+/*Margin*/
+
+/*margin: 100px;*/
+
+/*margin: top right bottom left;*/
+
+/*this centers stuff*/
+/*margin: top-bottom left-right;*/
+margin: 0 auto;
+
+
+}
+
+/*when you inspect in google chrome the
+selected item is blue, the padding is green and the margin is orange*/
