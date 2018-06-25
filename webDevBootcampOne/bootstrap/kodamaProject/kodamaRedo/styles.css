@@ -1,0 +1,36 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(http://res.cloudinary.com/lizardscruff/image/upload/e_auto_saturation/v1497796638/bgtest5_qj7yj4.jpg); 
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	font-family: 'Trade Winds', cursive;
+	color: white;
+	text-align: center;
+}
+
+.banner-logo {
+	max-width: 50%;
+}
+
+.kodamalogo {
+	width: 100%;
+	position: center;
+}
+
+
+
+
+/*test*/
+p {
+	margin-top: 5000px;
+}
+
+.tester {
+	padding: 100px;
+}
