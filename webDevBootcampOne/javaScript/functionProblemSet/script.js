@@ -25,7 +25,7 @@ function isEven(n){
 	return n % 2 === 0;
 }
 
-if (isEven(n) === true) {
+if (isEven(n)) {
 	alert("It's true!");
 } else {
 	alert("It's false");
