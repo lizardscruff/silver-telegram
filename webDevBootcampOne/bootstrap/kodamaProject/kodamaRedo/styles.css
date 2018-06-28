@@ -6,6 +6,7 @@ body {
 	background-image: url(http://res.cloudinary.com/lizardscruff/image/upload/e_auto_saturation/v1497796638/bgtest5_qj7yj4.jpg); 
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 h1 {
@@ -14,13 +15,34 @@ h1 {
 	text-align: center;
 }
 
+/*
+trying to get the text to take up 100% 
+of it's container
+maybe you should just make a png?
+div {
+	text-align: justify;
+}
+
+div:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+*/
+
 .banner-logo {
-	max-width: 50%;
+	max-width: 7em;
 }
 
 .kodamalogo {
 	width: 100%;
 	position: center;
+	margin-top: 5em;
+}
+
+.kodama-hero-title {
+	font-size: 7em;
+	margin-top: 0.25em;
 }
 
 
@@ -28,7 +50,7 @@ h1 {
 
 /*test*/
 p {
-	margin-top: 5000px;
+	margin-top: 500px;
 }
 
 .tester {
