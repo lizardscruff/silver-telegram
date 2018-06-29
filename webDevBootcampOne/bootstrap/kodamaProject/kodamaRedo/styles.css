@@ -9,12 +9,26 @@ body {
 	background-repeat: no-repeat;
 }
 
-h1 {
+.banner-logo {
+	max-width: 7em;
+}
+
+.kodama-hero-logo {
+	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.logo-hero-container {
+	margin-top: 120px;
+}
+
+/*h1 {
 	font-family: 'Trade Winds', cursive;
 	color: white;
 	text-align: center;
 }
-
+*/
 /*
 trying to get the text to take up 100% 
 of it's container
@@ -30,29 +44,12 @@ div:after {
 }
 */
 
-.banner-logo {
-	max-width: 7em;
-}
-
-.kodamalogo {
-	width: 100%;
-	position: center;
-	margin-top: 5em;
-}
-
-.kodama-hero-title {
-	font-size: 7em;
-	margin-top: 0.25em;
-}
-
-
-
 
 /*test*/
-p {
-	margin-top: 500px;
+div {
+	border: solid red;
 }
 
-.tester {
-	padding: 100px;
+p {
+	margin-top: 500px;
 }
