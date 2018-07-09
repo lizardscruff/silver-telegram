@@ -1,0 +1,11 @@
+document.getElementbyId("first");
+document.getElementbyClassName("special")[0];
+document.getElementbyTagName("p");
+document.getElementbyTagName("p")[0];
+document.querySelector("#first");
+document.querySelector(".special");
+document.querySelector("p");
+document.querySelectorAll("#first");
+document.querySelectorAll(".special")[0];
+document.querySelectorAll("p")[0];
+document.querySelector("h1 + p");
