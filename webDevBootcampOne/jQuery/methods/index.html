@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+	<title>jQuery Methods</title>
+</head>
+<body>
+	<h1>jQuery Methods Demo Page</h1>
+
+	<input type="text" placeholder="your name">
+
+	<select>
+		<option>Ostrich</option>
+		<option>Turtle</option>
+		<option>Rabbit</option>
+	</select>
+
+	<ul>
+		<li>Skittles</li>
+		<li>Starburst</li>
+		<li>Twix</li>
+	</ul>
+
+	<img src="https://www.xn--cckyb8ika7450e78m704d6wf.com/wp-content/uploads/2017/11/ten-winter.jpg" alt="itachi">
+	<img src="https://www.xn--cckyb8ika7450e78m704d6wf.com/wp-content/uploads/2017/11/ten-winter.jpg" alt="itachi">
+	<img src="https://www.xn--cckyb8ika7450e78m704d6wf.com/wp-content/uploads/2017/11/ten-winter.jpg" alt="itachi">
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+.text()
+similar to vanillajs' .textContent
+
+loops through the selected element and returns a string of just the text
+or
+input something $('h1').text('h1 gets replaced with this!!!')to replace the text
+
+note: it's important to note that it will not allow code and only displays it as plain text
+-->
+
+
+<!-- 
+.html()
+similar to .innerHTML
+
+$('ul').html('<li>I hacked your UL!</li><li>ps you are awesome</li>');
+replaces whats in the ul
+
+$('li').html('<a href="google.com">CLICK ME TO GO TO GOOGLE!</a>');
+loops through all lis and replaces all lis to this link
+-->
+
+
+<!-- 
+.attr()
+get and set a particular attribute of DOM item
+
+$('img').attr('src', 'https://jasonmckinney.files.wordpress.com/2011/07/werewolf-zombie.jpg');
+changes the cute itachi pic to a zombie werewolf
+$('img').last().attr('src', 'https://jasonmckinney.files.wordpress.com/2011/07/werewolf-zombie.jpg');
+just selects the last photo 
+remember $('img:first-of-type') selects just the first
+
+$('input').attr('type', 'color');
+changes the input box from 'text' to 'color'
+-->
+
+<!-- 
+.val()
+get or set a value in an element
+used primarily for form elements like input, select and textarea
+
+$('select').val(); 
+$('input').val(); 
+-->
+
+<!-- 
+addClass
+removeClass
+toggleClass
+
+vanillajs versions:
+classList.add
+classList.remove
+classList.toggle
+
+you should remember from making the Memory Game
+-->
