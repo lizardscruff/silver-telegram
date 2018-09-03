@@ -1,0 +1,18 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	/*this down here could lead to problems later*/
+	/*try toggling off if scroll bars appear*/
+	overflow: hidden;
+}
+
+canvas {
+	width: 100%;
+	background: black;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}

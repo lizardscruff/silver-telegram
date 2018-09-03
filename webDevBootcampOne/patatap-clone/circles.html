@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circles</title>
+	<script type="text/javascript" src="paper-full.js"></script>
+	<link rel="stylesheet" type="text/css" href="circles.css">
+	<script type="text/paperscript" canvas="myCanvas">
+
+		// function colorChange ()
+
+		for (var x = 40; x < 2000; x+=100) {
+			for (var y = 40; y < 2000; y+=100) {
+				// the chained version:
+				new Path.Circle(new Point(x, y), 15).fillColor = new Color(1, 1, 0);
+			
+				// var redCircle = new Path.Circle(new Point(x, y), 15);
+				// redCircle.fillColor = new Color(1, 1, 0);
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
